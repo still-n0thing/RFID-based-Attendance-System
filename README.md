@@ -4,6 +4,11 @@
 <img alt="Arduino" src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white"/>
 <img alt="Windows 10" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
 
+## Our Project Outcome
+
+<img alt="CompleteProject" src="CompleteProject.jpg"/>
+
+
 ## Things needed for the project
 
 - [x] Node MCU
@@ -20,6 +25,17 @@ Extras:
 - [x] WiFi Router
 - [x] USB to micro USB cable
 
+
+## Connection Diagram
+
+- connect RED LED to D2
+- connect GREEN LED to D1
+
+![RFIDtoNodeMCU](rfidtonmcu.JPG)
+
+Thanks to [miliohm](https://www.youtube.com/channel/UCmpic0ZzBNzD1W0dTBqfQLQ) for [How to use RFID Reader with NodeMCU - RC522 RFID Reader Tutorial](https://www.youtube.com/watch?v=SQIGilMagm0) video 
+
+
 ## Prerequisite Knowledge
 
 1. Basics of Python 
@@ -27,22 +43,6 @@ Extras:
 3. Basics of electrical circuit 
 4. Basics of Thingspeak
 
-## Instructions to run Python code
-
-```zsh
-pip install thingspeak
-```
-
-Create a file name apikey.py in same folder as code.py :
-```python
-my_channel_id =  0 # channel id here 
-my_write_api_key = "Write API Key"
-my_read_api_key = "Read API Key"
-```
-
-```zsh
-python code.py
-```
 
 ## Instructions to run Arduino code
 
@@ -60,12 +60,22 @@ Fill the following things in the code
 #define SECRET_WRITE_APIKEY "Write API Key"
 ```
 
-## Connection Diagram
 
-- connect RED LED to D2
-- connect GREEN LED to D1
+## Instructions to run Python code
 
-![RFIDtoNodeMCU](rfidtonmcu.JPG)
+Run in terminal :
+```zsh
+pip install thingspeak
+```
 
+Create a file name apikey.py in same folder as code.py :
+```python
+my_channel_id =  0 # channel id here 
+my_write_api_key = "Write API Key"
+my_read_api_key = "Read API Key"
+```
 
-Thanks to [miliohm](https://www.youtube.com/channel/UCmpic0ZzBNzD1W0dTBqfQLQ) for [How to use RFID Reader with NodeMCU - RC522 RFID Reader Tutorial](https://www.youtube.com/watch?v=SQIGilMagm0) video 
+Run in terminal :
+```zsh
+python code.py
+```
