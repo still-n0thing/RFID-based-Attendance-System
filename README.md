@@ -6,7 +6,7 @@
 
 ## Our Project Outcome
 
-<img alt="CompleteProject" src="CompleteProject.jpg"/>
+<img alt="Complete Project" src="images/Complete_Project.jpg"/>
 
 
 ## Things needed for the project
@@ -26,14 +26,21 @@ Extras:
 - [x] USB to micro USB cable
 
 
+## Block Diagram
+
+![Block Diagram](images/Block_Diagram.jpeg)
+
+
 ## Connection Diagram
 
 - connect RED LED to D2
 - connect GREEN LED to D1
 
-![RFIDtoNodeMCU](rfidtonmcu.JPG)
+![Connection between RFID and Node MCU](images/RFID_to_NodeMCU.jpg)
 
 Thanks to [miliohm](https://www.youtube.com/channel/UCmpic0ZzBNzD1W0dTBqfQLQ) for [How to use RFID Reader with NodeMCU - RC522 RFID Reader Tutorial](https://www.youtube.com/watch?v=SQIGilMagm0) video 
+
+![Complete Connection](images/Circuit_Diagram.jpg)
 
 
 ## Prerequisite Knowledge
