@@ -6,7 +6,7 @@
 
 ## Our Project Outcome
 
-<img alt="Complete Project" src="images/Complete_Project.jpg"/>
+<img alt="Complete Project" src="images/Complete_Project.jpeg"/>
 
 
 ## Things needed for the project
@@ -36,11 +36,11 @@ Extras:
 - connect RED LED to D2
 - connect GREEN LED to D1
 
-![Connection between RFID and Node MCU](images/RFID_to_NodeMCU.jpg)
+![Connection between RFID and Node MCU](images/RFID_to_NodeMCU.jpeg)
 
 Thanks to [miliohm](https://www.youtube.com/channel/UCmpic0ZzBNzD1W0dTBqfQLQ) for [How to use RFID Reader with NodeMCU - RC522 RFID Reader Tutorial](https://www.youtube.com/watch?v=SQIGilMagm0) video 
 
-![Complete Connection](images/Circuit_Diagram.jpg)
+![Complete Connection](images/Circuit_Diagram.jpeg)
 
 
 ## Prerequisite Knowledge
