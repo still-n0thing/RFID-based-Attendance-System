@@ -87,4 +87,4 @@ Run in terminal :
 python code.py
 ```
 ---
-Made with :heart: at IIIT Naya Raipur.
+Made with :heart: at IIIT Naya Raipur .
