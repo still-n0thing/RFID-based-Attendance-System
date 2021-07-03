@@ -4,12 +4,12 @@
 
 > An efficient and automated attendance management system based on RFID technology, which removes the need for manual attendance.
 
-## Our Project Outcome
+## Project Outcome
 
 <img alt="Complete Project" src="images/Complete_Project.jpeg"/>
 
 
-## Things needed for the project
+## Things required for the project
 
 - [x] Node MCU
 - [x] RFID Module
@@ -43,7 +43,7 @@ Thanks to [miliohm](https://www.youtube.com/channel/UCmpic0ZzBNzD1W0dTBqfQLQ) fo
 ![Complete Connection](images/Circuit_Diagram.jpeg)
 
 
-## Prerequisite Knowledge
+## Prerequisites
 
 1. Basics of Python 
 2. Basics of C++ (for Arduino Programming)
@@ -51,7 +51,7 @@ Thanks to [miliohm](https://www.youtube.com/channel/UCmpic0ZzBNzD1W0dTBqfQLQ) fo
 4. Basics of Thingspeak
 
 
-## Instructions to run Arduino code
+## Instructions for running Arduino code
 
 Install the following pakages :
 - SPI
@@ -68,7 +68,7 @@ Fill the following things in the code
 ```
 
 
-## Instructions to run Python code
+## Instructions for running Python code
 
 Run in terminal :
 ```zsh
@@ -87,4 +87,5 @@ Run in terminal :
 python code.py
 ```
 ---
+
 Made with :heart: at IIIT Naya Raipur .
